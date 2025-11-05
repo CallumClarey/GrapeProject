@@ -94,10 +94,7 @@ internal sealed class Shader
     {
         //read the file from source
         var shaderSource = "";
-        try
-        {
-            shaderSource = File.ReadAllText(filepath);
-        }
+        try { shaderSource = File.ReadAllText(filepath); }
         catch (FileNotFoundException)
         {
             Console.WriteLine("file Not found");

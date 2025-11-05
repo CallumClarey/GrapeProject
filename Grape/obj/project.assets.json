@@ -622,11 +622,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Callu\\Documents\\Grape Project\\Grape\\GrapeGUI.csproj",
+      "projectUniqueName": "C:\\Users\\Callu\\Documents\\GrapeProject\\Grape\\GrapeGUI.csproj",
       "projectName": "GrapeGUI",
-      "projectPath": "C:\\Users\\Callu\\Documents\\Grape Project\\Grape\\GrapeGUI.csproj",
+      "projectPath": "C:\\Users\\Callu\\Documents\\GrapeProject\\Grape\\GrapeGUI.csproj",
       "packagesPath": "C:\\Users\\Callu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Callu\\Documents\\Grape Project\\Grape\\obj\\",
+      "outputPath": "C:\\Users\\Callu\\Documents\\GrapeProject\\Grape\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

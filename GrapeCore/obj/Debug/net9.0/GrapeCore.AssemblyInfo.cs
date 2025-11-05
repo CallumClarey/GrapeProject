@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrapeCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+674d67d1e8a8ec7813e959718c9b13be56c3a316")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrapeCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrapeCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
