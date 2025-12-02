@@ -1,6 +1,8 @@
-﻿using OpenTK.Graphics.OpenGL4;
+﻿using System;
+using System.IO;
+using OpenTK.Graphics.OpenGL4;
 
-namespace GrapeCore.Shaders;
+namespace GrapeRenderer;
 
 
 /// <summary>

@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Numerics;
 
-namespace GrapeCore;
+namespace GrapeRenderer;
 
 
 /// <summary>
@@ -13,6 +11,62 @@ namespace GrapeCore;
 /// </summary>
 public partial class Game
 {
+    public static readonly int STRIDE_COUNT = 10;
+
+    public struct Square
+    {
+        /// <summary>
+        /// Constructor used to 
+        /// </summary>
+        /// <param name="color"></param>
+        public Square(RenderColor color)
+        {
+            PrimColor = color.ColorChannels;
+        }
+
+
+        //all vertices required to make a square
+        private readonly float[] TopRightVert = [0.5f, 0.5f, 0.0f];
+        private readonly float[] BottomRightVert = [0.5f, 0.5f, 0.0f];
+        private readonly float[] TopLeftVert = [0.5f, 0.5f, 0.0f];
+        private readonly float[] BottomLeftVert = [0.5f, 0.5f, 0.0f];
+
+
+        //TextureCoords
+        private readonly float[] TopRightCood = [1.0f, 1.0f];
+        private readonly float[] BottomRightCord = [1.0f, 0.0f];
+        private readonly float[] TopLeftCord = [0.0f, 1.0f];
+        private readonly float[] BottomLeftCord = [0.0f, 0.0f];
+
+        private float[] squareArray = 
+            [0.5f,   0.5f, 0.0f,0.0f,0.0f, 1.0f, 1.0f];
+
+
+
+
+
+
+        //This array controls how the EBO will use those vertices to create triangles
+        private readonly uint[] _indices =
+        [
+            0, 1, 3,
+            1, 2, 3
+        ];
+
+        //The colour of the square
+        public float[] PrimColor;
+    }
+
+
+    // vertices for a square 
+    private readonly float[] sqrVert =
+    [
+        0.5f,  0.5f, 0.0f,  1.0f, 1.0f, // top right
+        0.5f, -0.5f, 0.0f,  0.0f, 1.0f,// bottom right
+        -0.5f, -0.5f, 0.0f, 0.0f, 1.0f, // bottom left
+        -0.5f,  0.5f, 0.0f // top left
+    ];
+
     //vertices for the triangle 
     private readonly float[] _triangleVert =
     [

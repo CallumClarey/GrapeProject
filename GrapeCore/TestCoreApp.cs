@@ -1,5 +1,5 @@
-﻿using GrapeCore;
+﻿using GrapeRenderer;
 
 //Calls the main game
-using Game game = new Game(800, 600, "GameTitle");
+using var game = new Game(800, 600, "GameTitle");
 game.Run();
