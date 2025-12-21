@@ -1,0 +1,20 @@
+Map "MyInputmap"
+#context for general movement
+
+Context "General Movement"
+
+Float Action "Walk" : W,A,S,D
+Value : 1.0, 1.0 ,-1.0 , -1.0 -a
+	
+Bool Action "Attack" : LeftMouseDown 
+
+Bool Action "Scope"  : RightMouseDown
+
+Context End
+
+#new swimming context
+Context "Swimming"
+Float Action "Walk" : W,A,S,D
+Values : 1.0, 1.0,-1.0,-1.0
+
+End Context 
