@@ -1,13 +1,13 @@
 ﻿using System.Numerics;
-using GrapeGUI.Menu;
-using GrapeGUI.Styling;
-using GrapeGUI.Windows;
+using IGUIE.OLD.Menu;
+using IGUIE.OLD.Windows;
+using IGUIE.OLD.Styling;
 using ImGuiNET;
 using OpenTK.Windowing.Common;
 using SystemVector2 = System.Numerics.Vector2;
 
 
-namespace GrapeGUI;
+namespace IGUIE;
 
 //the other half of the class 
 internal sealed partial class Editor

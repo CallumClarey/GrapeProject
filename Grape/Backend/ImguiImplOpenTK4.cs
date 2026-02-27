@@ -9,7 +9,7 @@ using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.GraphicsLibraryFramework;
 using SNVector2 = System.Numerics.Vector2;
 
-namespace GrapeGUI.Backend
+namespace IGUIE.Backend
 {
     internal static unsafe class ImguiImplOpenTK4
     {

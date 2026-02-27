@@ -2,7 +2,7 @@
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.GraphicsLibraryFramework;
-using Editor = GrapeGUI.Editor;
+using Editor = IGUIE.Editor;
 
 var nativeWindowSettings = new NativeWindowSettings()
 {

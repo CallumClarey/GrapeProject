@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using OpenTK.Mathematics;
+﻿using OpenTK.Mathematics;
 
-namespace GRIS;
+namespace GRISL;
 
 //type tag used to restrict the type the event can have
 public interface IInputType;

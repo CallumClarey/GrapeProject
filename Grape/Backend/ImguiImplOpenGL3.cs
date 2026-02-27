@@ -4,7 +4,7 @@ using ImGuiNET;
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 
-namespace GrapeGUI.Backend
+namespace IGUIE.Backend
 {
     public static unsafe class ImguiImplOpenGL3
     {

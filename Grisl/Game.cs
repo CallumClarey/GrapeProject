@@ -1,4 +1,5 @@
-﻿using OpenTK.Graphics.OpenGL4;
+﻿using GRISL;
+using OpenTK.Graphics.OpenGL4;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.GraphicsLibraryFramework;
@@ -17,19 +18,7 @@ public class Game(int width, int height, string title) :
         base.OnUpdateFrame(args);
 
         Float input = 1.0f;
-
-        var move = new InputEvent<Float>();
-        
-
-        if (KeyboardState.IsKeyDown(Keys.Escape))
-        {
-            Close();
-        }
-
-        if (KeyboardState.IsKeyDown(Input.Read(Keyboard.A)))
-        {
-            Console.WriteLine("A pressed");
-        }
+        Console.WriteLine(IsAnyKeyDown.ToString());
      
 
     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrapeGUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b72daa8313eb8025f398cbeb76c2fb8002f69f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3144d7c46481565d17730b03be688d20f9bdeff1")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrapeGUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrapeGUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

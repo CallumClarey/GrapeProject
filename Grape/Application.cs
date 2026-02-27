@@ -1,12 +1,12 @@
 ﻿using System.Runtime.InteropServices;
-using GrapeGUI.Backend;
+using IGUIE.Backend;
 using ImGuiNET;
 using OpenTK.Graphics.OpenGL4;
 using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.Desktop;
 
-namespace GrapeGUI;
+namespace IGUIE;
 
 /// <summary>
 /// This is the partial class don't write general code in here boilerplate code to make the editor work

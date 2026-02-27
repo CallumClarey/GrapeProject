@@ -3,10 +3,10 @@ using GRIS.InputSystem;
 using GRIS.Interrupter;
 
 ////Calls the main game
-//using var game = new Game(800, 600, "GameTitle");
-//game.Run();
+using var game = new Game(800, 600, "GameTitle");
+game.Run();
 
-var manager = new InputManager("ISL_Template.txt");
-manager.LoadInputs();
+//var manager = new InputManager("ISL_Template.txt");
+//manager.LoadInputs();
 
-Console.WriteLine("Program done");
+//Console.WriteLine("Program done");
